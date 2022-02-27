@@ -7,14 +7,19 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
     
     .covervid {
-        min-width: 100% ;
-        min-height:100%;
-        position: fixed;
-        object-fit: contain;
-        z-index: -1;
+      min-width: 100%;
+      min-height: 100%;
+      right: 0;
+      bottom: 0;
+        height: auto;
+        width:auto;
+        position: relative;
+        background-size: fill;
+        overflow: hidden;
+        z-index: 0;
     }
   
     @include mobile{
@@ -78,6 +83,7 @@
         }
         p {
           align-items: center;
+          margin:20px;
           font-size: 20px;
         }
       }

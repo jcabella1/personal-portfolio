@@ -1,7 +1,15 @@
+* {
+    margin: 0;
+    font-family: 'Merriweather', serif;
+}
+
 .app {
     height: 100vh;
+    background-color:black;
 
     .sections {
+        overflow: scroll;
+
         width: 100%;
         height: calc(100vh - 70px);
         position: relative;

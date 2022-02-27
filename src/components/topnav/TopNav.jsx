@@ -1,11 +1,12 @@
 import "./topnav.scss";
+import { SiGitea } from "react-icons/si";
 
 export default function TopNav({ menuOpen, setMenuOpen }) {
     return(
         <div className={"top-nav " + (menuOpen && "active")}>
             <div className="wrapper">
                 <div className="left">
-                    <a href="#intro" className="logo">Portfolio site</a>
+                    <a href="#intro" className="logo"> <SiGitea /> </a>
                 </div>
 
                 <div className="right">

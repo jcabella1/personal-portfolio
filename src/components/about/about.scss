@@ -13,6 +13,7 @@
     h1 {
         font-size: 50px;
         color:$mainColor;
+        margin: 50px;
 
         @include mobile {
             font-size: 20px;

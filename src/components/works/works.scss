@@ -1,7 +1,7 @@
 @import "../../global.scss";
 
 .works {
-    background-color:crimson;
+    background-color:$backgroundColor;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -78,7 +78,7 @@
                             width: 40px;
                             height: 40px;
                             border-radius: 50%;
-                            background-color: rgb(255, 163, 130);
+                            background-color: $mainColor;
                             display: flex;
                             align-items: center;
                             justify-content: center;

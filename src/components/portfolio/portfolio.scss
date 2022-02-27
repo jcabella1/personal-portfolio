@@ -9,6 +9,7 @@
     
     h1 {
         font-size: 50px;
+        margin: 50px;
         color:$mainColor;
 
         @include mobile {
