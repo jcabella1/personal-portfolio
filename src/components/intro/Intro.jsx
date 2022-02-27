@@ -10,13 +10,13 @@ export default function Intro() {
           showCursor: true,
           backDelay: 1500,
           backSpeed:60,
-          strings: ["Developer", "Full-stack Engineer", "Artist", "Tea lover"],
+          strings: ["Developer", "Full-stack Engineer", "Designer"],
         });
       }, []);
     
     return (
         <div className="intro" id="intro">
-        <video autoPlay muted loop className="mutedcovervid">
+        <video autoPlay muted loop className="covervid">
             <source src="/assets/videos/rain.mp4" type="video/mp4" />
         </video>
           <div className="center">
@@ -26,8 +26,9 @@ export default function Intro() {
               <h3>
                 <span ref={textRef}></span>
               </h3>
+              <p>Let's get in touch!</p>
             </div>
-            <a href="#portfolio">
+            <a href="#contact">
               <img src="/assets/down.png" alt="arrowdown" />
             </a>
           </div>

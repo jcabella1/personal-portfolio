@@ -1,6 +1,5 @@
 .app {
     height: 100vh;
-    background-color: #6C867A;
 
     .sections {
         width: 100%;
@@ -13,6 +12,7 @@
         &::-webkit-scrollbar {
             display:none;   // for chrome
         }
+
 
         /* For each section inside of .sections class */
         > * {
