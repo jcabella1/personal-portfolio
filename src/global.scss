@@ -1,0 +1,11 @@
+$mainColor: #D8E4DE;
+$backgroundColor: #2A523F; 
+$sidebarColor: #0D2318;
+
+$width: 768px;
+
+@mixin mobile {
+    @media (max-width: #{$width}) {
+        @content
+    }
+}
