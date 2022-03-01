@@ -1,5 +1,5 @@
 import "./contact.scss";
-import emailjs from 'emailjs-com';
+import emailjs from '@emailjs/browser';
 import { Form, Input, TextArea, Button } from 'semantic-ui-react';
 import Swal from 'sweetalert2';
 
@@ -36,8 +36,8 @@ export default function Contact() {
                 id='form-input-control-email'
                 control={Input}
                 label='Email'
-                name='user_email'
-                placeholder='Email…'
+                name='from_email'
+                placeholder='Email'
                 required
                 icon='mail'
                 iconPosition='left'
@@ -47,8 +47,8 @@ export default function Contact() {
                 className='form-label'
                 control={Input}
                 label='Name'
-                name='user_name'
-                placeholder='Name…'
+                name='from_name'
+                placeholder='Name'
                 required
                 icon='user circle'
                 iconPosition='left'
@@ -58,12 +58,12 @@ export default function Contact() {
                 className='form-label'
                 control={TextArea}
                 label='Message'
-                name='user_message'
-                placeholder='Message…'
+                name='message'
+                placeholder='Message'
                 required
                 />
                 <Button type='submit' color='green'>Submit</Button>
-            </Form>
+          </Form>
         </div>
     );
 }
