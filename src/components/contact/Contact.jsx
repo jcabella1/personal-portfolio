@@ -20,8 +20,8 @@ export default function Contact() {
             data-netlify="true">
               <input type="hidden" name="form-name" value="contact-form" />
               <input type="text" placeholder="Enter your name" name="name" />
-              <input type="email" placeholder="Enter your email" name="email" />
-              <textarea type="text" placeholder="Type your message here" name="message" />
+              <input type="text" placeholder="Enter your email" name="email" />
+              <textarea placeholder="Type your message here" name="message" />
               <button type="submit">Submit</button>
             </form>
         </div>
