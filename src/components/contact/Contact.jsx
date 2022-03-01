@@ -15,8 +15,10 @@ export default function Contact() {
             {submitted && <div class='success-message'>Thanks! I'll get back to you ASAP.</div>}
             <form
             name="contact-form"
-            method="POST"
-            onSubmit={handleSubmit}>
+            method="post"
+            onSubmit={handleSubmit}
+            data-netlify="true"
+            data-netlify-honeypot="bot-field">
               <input type="hidden" name="form-name" value="contact-form" />
               <input type="text" placeholder="Enter your name" name="name" />
               <input type="text" placeholder="Enter your email" name="email" />
