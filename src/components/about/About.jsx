@@ -5,7 +5,7 @@ export default function About() {
         {
         id: 1,
         name: "Jay Abella",
-        title: "Programmer and Digital Artist",
+        title: "Developer / Designer",
         img:
         "https://cdn.discordapp.com/attachments/290307359757172747/948496456258584586/riensquished.png",
         icon: "assets/twitter.png",
