@@ -7,10 +7,10 @@ export default function About() {
         name: "Jay Abella",
         title: "Programmer and Digital Artist",
         img:
-        "https://cdn.discordapp.com/attachments/402618602127228938/945101245851512932/unknown.png",
+        "https://cdn.discordapp.com/attachments/290307359757172747/948496456258584586/riensquished.png",
         icon: "assets/twitter.png",
         desc:
-        "Hello! I'm an SF Bay native and I love tea, art, video games, and programming. In my free time, I like to draw digital illustrations. I enjoy finding ways to combine nice visuals with programming. Thanks for visiting my website!",
+        "Hello! I'm an SF Bay native and I love tea, art, video games, and programming. In my free time, I like making illustrations and designing websites. I enjoy finding ways to combine nice visuals with programming. Thanks for visiting my website!",
         }
     ];
     return (
