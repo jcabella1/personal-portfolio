@@ -16,7 +16,7 @@ export default function PortfolioList({title, imageSrc, body, url}) {
       </div>
       <div className="btn">
         <button>
-          <a href={url}>Source code</a>
+          <a href={url} target="_blank" rel="noopener noreferrer">Source code</a>
         </button>
       </div>
     </div>
